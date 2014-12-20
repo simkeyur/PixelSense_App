@@ -1,0 +1,11 @@
+c:\users\surface\documents\visual studio 2010\Projects\BlackJack\BlackJack\bin\Debug\CardGame.exe.config
+c:\users\surface\documents\visual studio 2010\Projects\BlackJack\BlackJack\bin\Debug\CardGame.exe
+c:\users\surface\documents\visual studio 2010\Projects\BlackJack\BlackJack\bin\Debug\CardGame.pdb
+c:\users\surface\documents\visual studio 2010\Projects\BlackJack\BlackJack\obj\Debug\BlackJack.BlackJackForm.resources
+c:\users\surface\documents\visual studio 2010\Projects\BlackJack\BlackJack\obj\Debug\BlackJack.OptionsForm.resources
+c:\users\surface\documents\visual studio 2010\Projects\BlackJack\BlackJack\obj\Debug\BlackJack.StartForm.resources
+c:\users\surface\documents\visual studio 2010\Projects\BlackJack\BlackJack\obj\Debug\BlackJack.Properties.Resources.resources
+c:\users\surface\documents\visual studio 2010\Projects\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.GenerateResource.Cache
+c:\users\surface\documents\visual studio 2010\Projects\BlackJack\BlackJack\obj\Debug\CardGame.exe
+c:\users\surface\documents\visual studio 2010\Projects\BlackJack\BlackJack\obj\Debug\CardGame.pdb
+C:\Users\surface\Documents\Visual Studio 2010\Projects\BlackJack\BlackJack\obj\Debug\BlackJack.csprojResolveAssemblyReference.cache
