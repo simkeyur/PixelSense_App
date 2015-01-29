@@ -1,4 +1,6 @@
-﻿namespace BlackJack
+﻿using System.Windows.Forms;
+
+namespace BlackJack
 {
     partial class BlackJackForm
     {
@@ -53,7 +55,6 @@
             this.lossesLabel = new System.Windows.Forms.Label();
             this.winsLabel = new System.Windows.Forms.Label();
             this.winTextBox = new System.Windows.Forms.TextBox();
-            this.endGameButton = new System.Windows.Forms.Button();
             this.standButton = new System.Windows.Forms.Button();
             this.dealButton = new System.Windows.Forms.Button();
             this.hitButton = new System.Windows.Forms.Button();
@@ -430,25 +431,6 @@
             this.winTextBox.Text = "0";
             this.winTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // endGameButton
-            // 
-            this.endGameButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.endGameButton.BackColor = System.Drawing.Color.Transparent;
-            this.endGameButton.BackgroundImage = global::BlackJack.Properties.Resources.ButtonRound;
-            this.endGameButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.endGameButton.FlatAppearance.BorderSize = 0;
-            this.endGameButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.endGameButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.endGameButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.endGameButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.endGameButton.Location = new System.Drawing.Point(589, 654);
-            this.endGameButton.Name = "endGameButton";
-            this.endGameButton.Size = new System.Drawing.Size(112, 39);
-            this.endGameButton.TabIndex = 15;
-            this.endGameButton.Text = "End Game";
-            this.endGameButton.UseVisualStyleBackColor = false;
-            this.endGameButton.Click += new System.EventHandler(this.ExitBtn_Click);
-            // 
             // standButton
             // 
             this.standButton.BackColor = System.Drawing.Color.Transparent;
@@ -460,7 +442,7 @@
             this.standButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.standButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.standButton.ForeColor = System.Drawing.Color.Black;
-            this.standButton.Location = new System.Drawing.Point(317, 655);
+            this.standButton.Location = new System.Drawing.Point(378, 663);
             this.standButton.Name = "standButton";
             this.standButton.Size = new System.Drawing.Size(112, 39);
             this.standButton.TabIndex = 13;
@@ -480,7 +462,7 @@
             this.dealButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dealButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dealButton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.dealButton.Location = new System.Drawing.Point(452, 655);
+            this.dealButton.Location = new System.Drawing.Point(513, 663);
             this.dealButton.Name = "dealButton";
             this.dealButton.Size = new System.Drawing.Size(112, 39);
             this.dealButton.TabIndex = 14;
@@ -499,7 +481,7 @@
             this.hitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.hitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hitButton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.hitButton.Location = new System.Drawing.Point(178, 655);
+            this.hitButton.Location = new System.Drawing.Point(239, 663);
             this.hitButton.Margin = new System.Windows.Forms.Padding(0);
             this.hitButton.Name = "hitButton";
             this.hitButton.Size = new System.Drawing.Size(112, 39);
@@ -606,7 +588,7 @@
             this.doubleDownButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.doubleDownButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.doubleDownButton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.doubleDownButton.Location = new System.Drawing.Point(33, 655);
+            this.doubleDownButton.Location = new System.Drawing.Point(94, 663);
             this.doubleDownButton.Margin = new System.Windows.Forms.Padding(0);
             this.doubleDownButton.Name = "doubleDownButton";
             this.doubleDownButton.Size = new System.Drawing.Size(123, 38);
@@ -676,10 +658,9 @@
             // 
             // BlackJackForm
             // 
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = global::BlackJack.Properties.Resources.Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1169, 876);
+            this.ClientSize = new System.Drawing.Size(1169, 751);
             this.Controls.Add(this.betPanel);
             this.Controls.Add(this.recordPanel);
             this.Controls.Add(this.playerNameLabel);
@@ -692,7 +673,6 @@
             this.Controls.Add(this.dealerCard3PictureBox);
             this.Controls.Add(this.photoPictureBox);
             this.Controls.Add(this.framePictureBox);
-            this.Controls.Add(this.endGameButton);
             this.Controls.Add(this.playerTotalLabel);
             this.Controls.Add(this.dealButton);
             this.Controls.Add(this.standButton);
@@ -712,6 +692,7 @@
             this.Name = "BlackJackForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BlackJack Casino";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.deckCard3PictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.deckCard2PictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.deckCard1PictureBox)).EndInit();
@@ -740,11 +721,12 @@
 
         #endregion
 
+
         private System.Windows.Forms.TextBox myAccountTextBox;
         private System.Windows.Forms.Button tenButton;
-        private System.Windows.Forms.Button twetyButton;
-        private System.Windows.Forms.Button hunntyFiveButton;
-        private System.Windows.Forms.Button fifdredButton;
+        private System.Windows.Forms.Button twentyFiveButton;
+        private System.Windows.Forms.Button hundredButton;
+        private System.Windows.Forms.Button fiftyButton;
         private System.Windows.Forms.TextBox winTextBox;
         private System.Windows.Forms.TextBox myBetTextBox;
         private System.Windows.Forms.Button hitButton;
@@ -768,7 +750,6 @@
         private System.Windows.Forms.PictureBox dealerCard2PictureBox;
         private System.Windows.Forms.PictureBox dealerCard1PictureBox;
         private System.Windows.Forms.Button clearBetButton;
-        private System.Windows.Forms.Button endGameButton;
         private System.Windows.Forms.PictureBox playerCard1;
         private System.Windows.Forms.PictureBox playerCard2;
         private System.Windows.Forms.PictureBox playerCard3;

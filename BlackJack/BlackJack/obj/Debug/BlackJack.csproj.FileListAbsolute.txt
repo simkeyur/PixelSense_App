@@ -9,3 +9,12 @@ c:\users\surface\documents\visual studio 2010\Projects\BlackJack\BlackJack\obj\D
 c:\users\surface\documents\visual studio 2010\Projects\BlackJack\BlackJack\obj\Debug\CardGame.exe
 c:\users\surface\documents\visual studio 2010\Projects\BlackJack\BlackJack\obj\Debug\CardGame.pdb
 C:\Users\surface\Documents\Visual Studio 2010\Projects\BlackJack\BlackJack\obj\Debug\BlackJack.csprojResolveAssemblyReference.cache
+C:\Users\Keyur\Documents\GitHub\PixelSense_App\BlackJack\BlackJack\bin\Debug\CardGame.exe.config
+C:\Users\Keyur\Documents\GitHub\PixelSense_App\BlackJack\BlackJack\obj\Debug\CardGame.exe
+C:\Users\Keyur\Documents\GitHub\PixelSense_App\BlackJack\BlackJack\obj\Debug\BlackJack.csprojResolveAssemblyReference.cache
+C:\Users\Keyur\Documents\GitHub\PixelSense_App\BlackJack\BlackJack\obj\Debug\BlackJack.BlackJackForm.resources
+C:\Users\Keyur\Documents\GitHub\PixelSense_App\BlackJack\BlackJack\obj\Debug\BlackJack.Properties.Resources.resources
+C:\Users\Keyur\Documents\GitHub\PixelSense_App\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.GenerateResource.Cache
+C:\Users\Keyur\Documents\GitHub\PixelSense_App\BlackJack\BlackJack\bin\Debug\CardGame.exe
+C:\Users\Keyur\Documents\GitHub\PixelSense_App\BlackJack\BlackJack\bin\Debug\CardGame.pdb
+C:\Users\Keyur\Documents\GitHub\PixelSense_App\BlackJack\BlackJack\obj\Debug\CardGame.pdb

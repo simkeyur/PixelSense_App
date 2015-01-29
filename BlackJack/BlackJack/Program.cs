@@ -12,7 +12,8 @@ namespace BlackJack
         static void Main()
         {
             Application.EnableVisualStyles();
-            Application.Run(new StartForm());
+            Application.Run(new BlackJackForm());
+            
         }
     }
 }
