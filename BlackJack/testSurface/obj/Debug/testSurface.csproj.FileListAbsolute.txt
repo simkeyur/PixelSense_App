@@ -1,0 +1,15 @@
+C:\Users\surface\Documents\GitHub\PixelSense_App\BlackJack\testSurface\bin\Debug\Resources\icon.png
+C:\Users\surface\Documents\GitHub\PixelSense_App\BlackJack\testSurface\bin\Debug\testSurface.xml
+C:\Users\surface\Documents\GitHub\PixelSense_App\BlackJack\testSurface\bin\Debug\testSurface.exe
+C:\Users\surface\Documents\GitHub\PixelSense_App\BlackJack\testSurface\bin\Debug\testSurface.pdb
+C:\Users\surface\Documents\GitHub\PixelSense_App\BlackJack\testSurface\obj\Debug\SurfaceWindow1.baml
+C:\Users\surface\Documents\GitHub\PixelSense_App\BlackJack\testSurface\obj\Debug\App.baml
+C:\Users\surface\Documents\GitHub\PixelSense_App\BlackJack\testSurface\obj\Debug\SurfaceWindow1.g.cs
+C:\Users\surface\Documents\GitHub\PixelSense_App\BlackJack\testSurface\obj\Debug\App.g.cs
+C:\Users\surface\Documents\GitHub\PixelSense_App\BlackJack\testSurface\obj\Debug\testSurface_Content.g.cs
+C:\Users\surface\Documents\GitHub\PixelSense_App\BlackJack\testSurface\obj\Debug\testSurface_MarkupCompile.cache
+C:\Users\surface\Documents\GitHub\PixelSense_App\BlackJack\testSurface\obj\Debug\testSurface.g.resources
+C:\Users\surface\Documents\GitHub\PixelSense_App\BlackJack\testSurface\obj\Debug\testSurface.Properties.Resources.resources
+C:\Users\surface\Documents\GitHub\PixelSense_App\BlackJack\testSurface\obj\Debug\testSurface.csproj.GenerateResource.Cache
+C:\Users\surface\Documents\GitHub\PixelSense_App\BlackJack\testSurface\obj\Debug\testSurface.exe
+C:\Users\surface\Documents\GitHub\PixelSense_App\BlackJack\testSurface\obj\Debug\testSurface.pdb
